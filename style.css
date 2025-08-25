@@ -1,5 +1,5 @@
 body{
-    background-color: red;
+    background-color: grey;
 }
 h1{
     background-color: white;
@@ -32,3 +32,4 @@ h1, p {
     flex-direction: column; /* stack menu on small screens */
   }
 }
+
