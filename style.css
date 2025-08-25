@@ -8,4 +8,27 @@ h1{
 }
 h2{
     background-color:rgb(12, 209, 176) ;
+
+}
+.container {
+  max-width: 90%;   /* instead of width:1000px */
+  margin: auto;
+}
+img {
+  max-width: 100%;   /* image won’t overflow */
+  height: auto;
+}
+
+h1, p {
+  font-size: clamp(16px, 2vw, 24px); /* scales with screen */
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column; /* stack menu on small screens */
+  }
 }
